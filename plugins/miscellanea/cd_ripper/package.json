@@ -1,6 +1,6 @@
 {
 	"name": "cd_ripper",
-	"version": "1.0.0",
+	"version": "0.1.0",
 	"description": "Rips an audio CD, saves tracks in flac/mp3/etc. format then triggers database update",
 	"main": "index.js",
 	"scripts": {
