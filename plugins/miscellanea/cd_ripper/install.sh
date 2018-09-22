@@ -6,9 +6,9 @@ sudo apt-get update
 sudo apt-get -y install abcde lame flac cdparanoia eject
 
 # copy scripts to automatically begin encoding
-cp -f /data/plugins/miscellanea/cd_ripper/.abcde.conf ~/
-sudo cp -f /data/plugins/miscellanea/cd_ripper/99-cd-audio-processing.rules /etc/udev/rules.d/
-sudo cp -f /data/plugins/miscellanea/cd_ripper/rip-audio-cd@service /etc/systemd/system/
+cp -f /data/plugins/miscellanea/cd_ripper/abcde.conf ~/.abcde.conf
+sudo cp -fp /data/plugins/miscellanea/cd_ripper/99-cd-audio-processing.rules /etc/udev/rules.d/
+sudo cp -fp /data/plugins/miscellanea/cd_ripper/rip-audio-cd@.service /etc/systemd/system/
 sudo udevadm control --reload
 
 # If you need to differentiate install for armhf and i386 you can get the variable like this
