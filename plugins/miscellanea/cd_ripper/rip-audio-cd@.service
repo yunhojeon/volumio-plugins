@@ -1,0 +1,6 @@
+[Unit]
+Description=Rip audio CD on insertion
+
+[Service]
+Type=oneshot
+ExecStart=/data/plugins/miscellanea/cd_ripper/rip-audio-cd.sh %I
