@@ -355,11 +355,11 @@
 					"prettyName": "CD Ripper",
 					"icon": "fa-lightbulb-o",
 					"name": "cd_ripper",
-					"version": "0.1.0",
+					"version": "0.1.1",
 					"url": "http://volumio.github.io/volumio-plugins/plugins/volumio/armhf/miscellanea/cd_ripper/cd_ripper.zip",
 					"license": "ISC",
 					"description": "Rips an audio CD, saves tracks in flac/mp3/etc. format then triggers database update",
-					"details": "rips audio CD automatically",
+					"details": "This plugin rips audio CD automatically when inserted, then updates music database",
 					"author": "Yunho Jeon",
 					"screenshots": [
 						{
