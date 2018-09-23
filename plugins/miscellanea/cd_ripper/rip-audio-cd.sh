@@ -9,7 +9,8 @@ date >> $LOGFILE
         rc=$?
         if [[ $rc != 0 ]] ; then
                 # log it somehow
-                eject
+                # ejected by abcde
+                # eject 
                 exit $rc
         fi
 ) 200>/var/lock/.audio-cd-rip.lock
